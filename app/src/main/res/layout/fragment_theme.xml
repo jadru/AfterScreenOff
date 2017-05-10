@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hisl.glance.free.fragment.ThemeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:text="Theme 1 or 2"
+        android:textSize="30sp"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>
